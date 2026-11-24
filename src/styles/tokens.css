@@ -1,0 +1,76 @@
+:root {
+  /* Locked palette */
+  --bg: #121110;
+  --surface: #1a1816;
+  --raised: #23211e;
+  --hairline: rgba(245, 235, 220, 0.08);
+  --text: #f2ece2;
+  --text-secondary: #9a9184;
+  --text-muted: #6b645a;
+  --accent: #d4826a;
+  --paid: #9fb89a;
+  --overdue: #c96a5c;
+
+  /* Supporting tokens */
+  --accent-contrast: #1c1915;
+  --overlay: rgba(0, 0, 0, 0.55);
+  --serif: 'Fraunces', 'Iowan Old Style', Georgia, serif;
+  /* Fraunces has no Cyrillic glyphs, so Russian headings use a real serif. */
+  --serif-cyrillic: Georgia, 'Times New Roman', 'Noto Serif', serif;
+  --sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Neutral tints only; accent stays semantic. */
+  --chart-1: #f2ece2;
+  --chart-2: #d6cbbb;
+  --chart-3: #b3a795;
+  --chart-4: #8f8576;
+  --chart-5: #6b645a;
+  --chart-6: #4a443b;
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 26px;
+  --radius-pill: 999px;
+
+  --shadow-soft: 0 16px 40px rgba(0, 0, 0, 0.28);
+  --shadow-fab: 0 8px 20px rgba(0, 0, 0, 0.35);
+  --shadow-lift: 0 1px 0 rgba(245, 235, 220, 0.045) inset;
+  --glow-accent: 0 14px 34px -18px rgba(212, 130, 106, 0.55);
+
+  --tab-height: 72px;
+  --rail-width: 96px;
+  --content-max: 960px;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+
+  color-scheme: dark;
+}
+
+:root[data-theme='light'] {
+  --bg: #f5efe6;
+  --surface: #fffaf2;
+  --raised: #ece3d5;
+  --hairline: rgba(28, 25, 21, 0.12);
+  --text: #1c1915;
+  --text-secondary: #5e554b;
+  --text-muted: #7a7064;
+  --accent: #a34a2f;
+  --paid: #3f6b3a;
+  --overdue: #b24435;
+
+  --accent-contrast: #fffaf2;
+  --overlay: rgba(28, 25, 21, 0.35);
+  --shadow-soft: 0 16px 40px rgba(80, 60, 40, 0.14);
+  --shadow-fab: 0 8px 20px rgba(80, 60, 40, 0.2);
+  --shadow-lift: 0 1px 0 rgba(255, 255, 255, 0.55) inset;
+  --glow-accent: 0 14px 30px -18px rgba(163, 74, 47, 0.4);
+
+  --chart-1: #1c1915;
+  --chart-2: #4a4238;
+  --chart-3: #6e6456;
+  --chart-4: #948876;
+  --chart-5: #b7a993;
+  --chart-6: #d6c8b4;
+
+  color-scheme: light;
+}

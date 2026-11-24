@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#121110" />
+  <rect
+    x="128"
+    y="112"
+    width="272"
+    height="272"
+    rx="72"
+    fill="#23211e"
+    stroke="#f5ebdc"
+    stroke-opacity="0.14"
+    stroke-width="4"
+    transform="rotate(-7 256 244)"
+  />
+  <rect x="144" y="156" width="256" height="256" rx="72" fill="#d4826a" />
+  <rect x="200" y="240" width="144" height="19" rx="9.5" fill="#121110" opacity="0.72" />
+  <rect x="200" y="280" width="96" height="19" rx="9.5" fill="#121110" opacity="0.42" />
+  <circle cx="208" cy="344" r="17" fill="#121110" opacity="0.35" />
+</svg>
